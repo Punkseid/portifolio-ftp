@@ -37,12 +37,12 @@ export default ({isOpen, toggle}) => {
     }
     return (
         <>
-            <SideBarContaiener isOpen={isOpen} toggle={toggle} scrollNav={scrollNav}>
+            <SideBarContaiener isOpen={isOpen} scrollNav={scrollNav}>
                 <Icon onClick={toggle}>
                     <CloseIcon></CloseIcon>
                 </Icon>
 
-                    <SideLogo to='/' onClick={toggleHome} toggle={toggle}>
+                    <SideLogo to='/' onClick={toggleHome}>
                         <SideLogoImg src={ImgLogo} />
                     </SideLogo>
                 <SideBarWrapper>

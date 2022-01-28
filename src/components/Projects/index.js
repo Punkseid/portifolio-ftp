@@ -14,11 +14,10 @@ import {
     ImgWrap,
     ProjectImg,
     ProjectDescription,
-    PWrap,
-    colorBg
+    PWrap
 } from './ProjectsElements'
 
-export default () => {
+const Projects =  () => {
     return (
         <>
             <ProjectContainer id='project'>
@@ -100,5 +99,7 @@ export default () => {
                 </ProjectWrap>
             </ProjectContainer>
         </>
-    )
+    );
 }
+
+export default Projects;
